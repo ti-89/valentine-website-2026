@@ -42,16 +42,16 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOW You love love me don't you? 🌞❤️",  // Shows when they go past 5000%
-        high: "You'd let me get you pregnant love me 🤰💝",              // Shows when they go past 1000%
+        extreme: "You'd let me get you pregnant love me 🤰💝",  // Shows when they go past 5000%
+        high: "You'll let me hit it raw all night love me",              // Shows when they go past 1000%
         normal: "And more! ❤️"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "I'm the luckiest person in the world! 🎉❤️",
-        message: "I can't wait to see you!",
-        emojis: "🤗❤️💕"  // These will bounce around
+        title: "I can't wait to see how pretty you look ❤️",
+        message: "We're going to Gyu-Kaku Japanese aka NIWA! I have a reservation for us at 8:00pm, just be ready at 7, I'm scooping you up :)",
+        emojis: "❤️💕"  // These will bounce around
     },
 
     // Color scheme for the website
