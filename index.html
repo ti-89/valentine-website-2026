@@ -77,17 +77,19 @@
     <audio id="bgMusic" src="kiss-me-thru-the-phone.mp3" preload="auto"></audio>
 
 <audio id="bgMusic" src="kiss-me-thru-the-phone.mp3" preload="auto"></audio>
-    <script>
-  // find the play button
-  const playBtn = document.querySelector("button"); // or a more specific selector if needed
+<button id="playMusicBtn">Play Music</button>
+
+<script>
+  const btn = document.getElementById("playMusicBtn");
   const audio = document.getElementById("bgMusic");
 
-  playBtn.addEventListener("click", () => {
+  btn.addEventListener("click", () => {
     audio.play().catch(err => {
-      console.error("Audio failed to play:", err);
+      console.error("Audio play error:", err);
     });
   });
 </script>
+
     
 </body>
 </html> 
