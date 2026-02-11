@@ -79,16 +79,7 @@
 <audio id="bgMusic" src="kiss-me-thru-the-phone.mp3" preload="auto"></audio>
 <button id="playMusicBtn">Play Music</button>
 
-<script>
-  const btn = document.getElementById("playMusicBtn");
-  const audio = document.getElementById("bgMusic");
 
-  btn.addEventListener("click", () => {
-    audio.play().catch(err => {
-      console.error("Audio play error:", err);
-    });
-  });
-</script>
 
     
 </body>
