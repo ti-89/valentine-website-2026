@@ -73,5 +73,19 @@
     <script src="config.js"></script>
     <script src="theme.js"></script>
     <script src="script.js"></script>
+
+    <audio id="bgMusic" src="kiss-me-thru-the-phone.mp3" preload="auto"></audio>
+
+<script>
+  const playBtn = document.querySelector("button"); // your existing button
+  const audio = document.getElementById("bgMusic");
+
+  playBtn.addEventListener("click", () => {
+    audio.play().catch(err => {
+      console.error("Audio play failed:", err);
+    });
+  });
+</script>
+    
 </body>
 </html> 
